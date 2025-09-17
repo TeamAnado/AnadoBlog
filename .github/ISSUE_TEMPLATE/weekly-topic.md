@@ -1,8 +1,9 @@
 ---
 name: "✍️ 주차별 스터디 주제"
+about: Issue Template
 title: "[X주차] "
-labels: "discussion"
-assignees: ''
+labels: ''
+assignees: akaHEPTA, dd-jiyun, dnya0, SungRyulCho
 
 ---
 
