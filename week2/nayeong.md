@@ -9,7 +9,7 @@
 
 ### 동시성(Concurrency)과 병렬성(Parallelism)
 
-![](https://t1.daumcdn.net/cfile/tistory/99AD02405FBBB94910)
+![](https://parksunwoo.github.io/assets/images/concurrent_parallel.png)
 
 **동시성 프로그래밍**은 말 그대로 **동시에 여러 작업**을 수행하는 것이다. 하지만 눈으로 보기에 동시에 실행되는 것이지, 사실 **시분할(Interleaving) 기법을 활용**하여 여러 작업을 **조금씩 나누어서 번갈아가며 실행**한다.
 
@@ -19,8 +19,7 @@ Task 1 과 Task 2 를 **잘개 쪼개어 번갈아가며 수행**하여 사용�
 
 Task 1 과 Task 2 가 **병렬적으로 동시에 수행**된다. 이는 '멀티코어' 시스템에서 가능한 이야기이다. **코어 각각이 Task 1, Task 2 를 맡아 작업을 수행**하면, 완전히 동시에 수행되는 것이다. 따라서, 각각 태스크가 10분씩이라면, **최종적으로 10분이 소요**되는 것이다. 이 경우 Context Switching 이 일어나지 않는다.
 
-![](https://t1.daumcdn.net/cfile/tistory/995359405FBBB9591C)
-
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FzXU6S%2FbtsvXjoOFXw%2FAAAAAAAAAAAAAAAAAAAAAA1ismdfsR31Avl5A6n77iRr5nrOO5gwmPsSu2fXDMFz%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DsIkK%252FXL4dTHgMex%252BI82OoNXXcpI%253D)
 
 
 ## 가상 스레드의 등장 배경
